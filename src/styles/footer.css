@@ -1,0 +1,5 @@
+.row {
+  display: flex;
+  gap: 3em;
+  justify-content: space-evenly;
+}
