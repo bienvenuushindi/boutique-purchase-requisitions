@@ -1,6 +1,7 @@
 .product__container {
   padding-left: 0;
 }
+
 .product__container > li {
   display: flex;
   align-items: center;
