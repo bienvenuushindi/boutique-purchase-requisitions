@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../../styles/footer.css';
 
 const Footer = () => (
@@ -6,19 +7,27 @@ const Footer = () => (
     <div className="row">
       {/* Column one */}
       <div className="col">
-        <h3>Home</h3>
+        <NavLink to="/">
+          <h3>Home</h3>
+        </NavLink>
       </div>
       {/* Column two */}
       <div className="col">
-        <h3>Products</h3>
+        <NavLink to="/products">
+          <h3>Products</h3>
+        </NavLink>
       </div>
       {/* Column three */}
       <div className="col">
-        <h3>Suppliers</h3>
+        <NavLink to="/suppliers">
+          <h3>Suppliers</h3>
+        </NavLink>
       </div>
       {/* Column four */}
       <div className="col">
-        <h3>Requisitions</h3>
+        <NavLink to="/requisitions">
+          <h3>Requisitions</h3>
+        </NavLink>
       </div>
     </div>
     <hr />

@@ -5,7 +5,7 @@ function Header() {
   return (
     <nav
       className="header__nav"
-      style={{ display: 'flex', justifyContent: 'space-between' }}
+      style={{ display: 'flex', justifyContent: 'center', gap: '1em' }}
     >
       <NavLink to="/pending">
         <div className="pending">Pending</div>
@@ -16,7 +16,6 @@ function Header() {
       <NavLink to="/uncompleted">
         <div className="uncompleted">Uncompleted</div>
       </NavLink>
-      X
     </nav>
   );
 }
